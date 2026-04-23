@@ -1,8 +1,3 @@
-Drop DATABASE if exists QuickMart;
-CREATE DATABASE QuickMart;
-
-USE QuickMart;
-Drop table if exists employees;
 CREATE TABLE employees (
     employee_ID VARCHAR(15) PRIMARY KEY,
     employee_name VARCHAR(50),
